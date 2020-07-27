@@ -17,7 +17,7 @@
     "blogmail",
     "react"
   ],
-  "author": "Brenden Matthews",
+  "author": "Brenden Matthews <brenden@brndn.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blogmail/blogmail-react/issues"
@@ -55,7 +55,11 @@
   },
   "jest": {
     "preset": "ts-jest",
-    "testEnvironment": "node"
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "build/",
+      "example/"
+    ]
   },
   "files": [
     "build"
@@ -68,5 +72,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "react-load-script": "0.0.6"
   }
 }

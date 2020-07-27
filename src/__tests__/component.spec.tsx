@@ -1,14 +1,14 @@
-import * as React from "react";
+import * as React from "react"
 
-import Hello from "..";
-import renderer from "react-test-renderer";
+import Blogmail from ".."
+import renderer from "react-test-renderer"
 
 test("Component should show 'red' text 'Hello World'", () => {
-  const component = renderer.create(<Hello text="World" />);
-  const testInstance = component.root;
+  const component = renderer.create(<Blogmail newsletterId="test" />)
+  const testInstance = component.root
 
-  expect(testInstance.findByType(Hello).props.text).toBe("World");
+  expect(testInstance.findByType(Blogmail).props.newsletterId).toBe("test")
 
-  const tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
-});
+  const tree = component.toJSON()
+  expect(tree).toMatchSnapshot()
+})

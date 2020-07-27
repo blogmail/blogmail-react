@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component should show 'red' text 'Hello World' 1`] = `
-<div
-  style={
-    Object {
-      "color": "red",
+<div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "{\\"newsletterId\\":\\"test\\"}",
+      }
     }
-  }
->
-  Hello 
-  World
+    id="blogmail1"
+  />
 </div>
 `;
