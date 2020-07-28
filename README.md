@@ -30,4 +30,4 @@ const App = () => <Blogmail newsletterId={newsletterId} />
 ReactDOM.render(<App />, document.body)
 ```
 
-See the [example](example/) dir for a detailed example.
+See the [example](example/) dir for a complete example based on react-create-app.
