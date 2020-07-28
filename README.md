@@ -1,6 +1,6 @@
 [![Node.js CI](https://github.com/blogmail/blogmail-react/workflows/Node.js%20CI/badge.svg?branch=master)](https://github.com/blogmail/blogmail-react/actions?query=workflow%3A%22Node.js+CI%22) [![Node.js Package](https://github.com/blogmail/blogmail-react/workflows/Node.js%20Package/badge.svg)](https://github.com/blogmail/blogmail-react/actions?query=workflow%3A%22Node.js+Package%22) [![npm version](https://img.shields.io/npm/v/@blogmail/react.svg?style=flat-square)](https://www.npmjs.com/package/@blogmail/react)
 
-# blogmail-react
+# @blogmail/react
 
 This project provides a React component for integrating [blogmail](https://blogmail.co/).
 
