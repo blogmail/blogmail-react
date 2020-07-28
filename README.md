@@ -7,13 +7,13 @@ This project provides a React component for integrating [blogmail](https://blogm
 ## Usage
 
 ```sh
-npm install blogmail-react
+npm install @blogmail/react
 ```
 
 or
 
 ```sh
-yarn add blogmail-react
+yarn add @blogmail/react
 ```
 
 ## Minimal example
@@ -21,7 +21,7 @@ yarn add blogmail-react
 ```jsx
 import React from "react"
 import ReactDOM from "react-dom"
-import Blogmail from "blogmail-react"
+import Blogmail from "@blogmail/react"
 
 const newsletterId = "newsletterId"
 

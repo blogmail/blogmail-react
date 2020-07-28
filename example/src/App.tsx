@@ -1,7 +1,7 @@
 import React from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import Blogmail from "blogmail-react"
+import Blogmail from "@blogmail/react"
 
 const Toggle = () => {
   const [show, setShow] = React.useState(true)
