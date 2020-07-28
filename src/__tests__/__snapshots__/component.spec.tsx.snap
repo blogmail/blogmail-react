@@ -3,12 +3,16 @@
 exports[`Component should show 'red' text 'Hello World' 1`] = `
 <div>
   <div
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "{\\"newsletterId\\":\\"test\\"}",
-      }
-    }
     id="blogmail1"
-  />
+  >
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"newsletterId\\":\\"test\\"}",
+        }
+      }
+      type="application/json"
+    />
+  </div>
 </div>
 `;
