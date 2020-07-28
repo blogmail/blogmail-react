@@ -2437,6 +2437,13 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+blogmail-react@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blogmail-react/-/blogmail-react-1.0.0.tgz#4d7d06ec284bca4bed1f03864508e86d0321015c"
+  integrity sha512-hxPZOAQ63ANCqtt0WtslhJbi4qjyy8y+VBY0fpX5hPUDus0Wzdr7qTrYoT3BE6/ncYLcATZlDFaPJajYfT5prA==
+  dependencies:
+    react-load-script "0.0.6"
+
 bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -8625,6 +8632,11 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-load-script@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-load-script/-/react-load-script-0.0.6.tgz#db6851236aaa25bb622677a2eb51dad4f8d2c258"
+  integrity sha512-aRGxDGP9VoLxcsaYvKWIW+LRrMOzz2eEcubTS4NvQPPugjk2VvMhow0wWTkSl7RxookomD1MwcP4l5UStg5ShQ==
 
 react-scripts@3.4.1:
   version "3.4.1"
